@@ -18,7 +18,7 @@ async function createMessage() {
 //this creates a Message class in our app
 const Message = mongoose.model("Message", schema);
 const message = new Message({
-  name: "Hello World",
+  name: "Ty Howard successfully initialized MongoDB Atlas",
 });
 
 createMessage();
